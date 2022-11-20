@@ -1,11 +1,13 @@
-body {
+html {
   font-family: Georgia, Verdana, Helvetica;
   color: white;
-}
+ }
 
 header {
-    background-color: #557A95;
-    border-bottom: solid #7395AE 10px;
+  position: fixed;
+  width: 99%;
+  background-color: #557A95;
+  border-bottom: solid #7395AE 10px;
 
   }
   
@@ -22,18 +24,20 @@ header {
     list-style-type: none;
     font-size: 20px;
     padding: 20px;
-    
+       
   }
 
-h1, h2, h4 {
+/*h1, h2, h4 {
   margin: 0;
- }
+ } */
 
 .section1 {
     margin: 0;
     border-bottom: solid #B1A296;
     background-color: #5D5C61;
     text-align: center;
+    position: relative;
+    top: 80px;
   
    
 }
@@ -43,6 +47,9 @@ h1, h2, h4 {
     margin: 0px;
     text-align: center;
     padding: 20px;
+    position: relative;
+    top: 80px;
+    
 
 }
 
@@ -70,5 +77,6 @@ footer {
   background-color: #557A95;
   border-bottom: solid white;
   text-align: center;
-
+  position: relative;
+  top: 50px;
 }
