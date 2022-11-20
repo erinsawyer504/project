@@ -1,0 +1,74 @@
+body {
+  font-family: Georgia, Verdana, Helvetica;
+  color: white;
+}
+
+header {
+    background-color: #557A95;
+    border-bottom: solid #7395AE 10px;
+
+  }
+  
+ 
+  ul {
+    text-align: right;
+    color: #ffffff;
+    padding-top: 25px;
+    margin-bottom: 10px;
+  }
+  
+   li {
+    display: inline;
+    list-style-type: none;
+    font-size: 20px;
+    padding: 20px;
+    
+  }
+
+h1, h2, h4 {
+  margin: 0;
+ }
+
+.section1 {
+    margin: 0;
+    border-bottom: solid #B1A296;
+    background-color: #5D5C61;
+    text-align: center;
+  
+   
+}
+
+.section2 {
+    background-color: #938E93;
+    margin: 0px;
+    text-align: center;
+    padding: 20px;
+
+}
+
+#contact {
+  padding-bottom: 15px;
+  text-align: center;
+  color: black;
+}
+
+form {
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 15px;
+    margin-left: 400px;
+    margin-right: 400px;
+    color: black;
+  }
+
+input {
+  background-color: gray;
+  border: white; 
+}
+
+footer {
+  background-color: #557A95;
+  border-bottom: solid white;
+  text-align: center;
+
+}
